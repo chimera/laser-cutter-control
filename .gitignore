@@ -3,3 +3,9 @@
 eagle.epf
 *.b#*
 *.s#*
+*.zip
+DRILEGEND.CFG
+*.ger
+*.gpi
+*.dri
+*.xln
