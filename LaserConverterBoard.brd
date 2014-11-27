@@ -127,6 +127,21 @@
 <text x="78.232" y="39.878" size="1.016" layer="21" font="vector">J9</text>
 <text x="77.978" y="33.274" size="1.016" layer="21" font="vector" rot="R180">J10</text>
 <text x="77.978" y="26.67" size="1.016" layer="21" font="vector" rot="R180">J11</text>
+<text x="14.224" y="57.912" size="1.6764" layer="21" font="vector" ratio="15">Chimera
+Art Space</text>
+<text x="30.734" y="28.702" size="1.6764" layer="21" font="vector" ratio="15">Laser
+Cutter
+Control</text>
+<text x="19.558" y="14.732" size="1.6764" layer="21" font="vector" ratio="15">CC-BY-SA-4.0</text>
+<text x="19.558" y="11.43" size="1.6764" layer="21" font="vector" ratio="15">Rev 1.3</text>
+<text x="17.018" y="12.192" size="1.6764" layer="22" font="fixed" ratio="15" rot="MR90">S1 = microstep select
+
+MS1   MS2   MS3
+off   off   off =&gt; Full Step
+on    off   off =&gt; Half Step
+off   on    off =&gt; 1/4 Step
+on    on    off =&gt; 1/8 Step
+on    on    on  =&gt; 1/16 Step</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -3074,4 +3089,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
