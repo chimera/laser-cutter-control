@@ -14575,8 +14575,8 @@ at 27/07/2012 14:48:47</description>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM1/10W1%(0603)" device="" value="100k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="4.7K"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="4.7K"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="E-STOP"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="FAN"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="E-STOP"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="FAN"/>
 <part name="Y3" library="pololu" deviceset="POLOLU_A4988" device=""/>
 <part name="Y2" library="pololu" deviceset="POLOLU_A4988" device=""/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="E" value="47uF"/>
@@ -14586,7 +14586,7 @@ at 27/07/2012 14:48:47</description>
 <part name="CNC_24V" library="SparkFun-Aesthetics" deviceset="VIN" device="" value="CNC_24V"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="J7" library="con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="AIR"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="AIR"/>
 <part name="D1" library="semicon-smd-ipc" deviceset="D-" device="SOD123"/>
 <part name="Q2" library="Fairchild_By_element14_Batch_1" deviceset="FDN5630" device="" value="FDN5630"/>
 <part name="Q1" library="Fairchild_By_element14_Batch_1" deviceset="FDN5630" device=""/>
