@@ -15823,8 +15823,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R2" library="SparkFun-Resistors" deviceset="100KOHM1/10W1%(0603)" device="" value="100k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="4.7K"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="4.7K"/>
-<part name="J11" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="E-STOP"/>
-<part name="J10" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="FAN"/>
+<part name="J11" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="E-STOP"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="FAN"/>
 <part name="Y3" library="pololu" deviceset="POLOLU_A4988" device=""/>
 <part name="Y2" library="pololu" deviceset="POLOLU_A4988" device=""/>
 <part name="Y1" library="pololu" deviceset="POLOLU_A4988" device=""/>
@@ -15841,7 +15841,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="J7" library="con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
 <part name="J6" library="con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
 <part name="J5" library="con-jst-xh" deviceset="04-JST" device="-B4B-XH-A"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="M02" device="POLAR" value="AIR"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="AIR"/>
 <part name="D1" library="semicon-smd-ipc" deviceset="D-" device="SOD123"/>
 <part name="Q1" library="Fairchild_By_element14_Batch_1" deviceset="FDN5630" device="" value="FDN5630"/>
 <part name="Q2" library="Fairchild_By_element14_Batch_1" deviceset="FDN5630" device=""/>

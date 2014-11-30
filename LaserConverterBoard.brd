@@ -124,16 +124,13 @@
 <text x="30.48" y="65.786" size="1.016" layer="21" font="vector" rot="R180">J2</text>
 <text x="30.48" y="58.928" size="1.016" layer="21" font="vector" rot="R180">J3</text>
 <text x="30.48" y="52.324" size="1.016" layer="21" font="vector" rot="R180">J4</text>
-<text x="78.232" y="39.878" size="1.016" layer="21" font="vector">J9</text>
-<text x="77.978" y="33.274" size="1.016" layer="21" font="vector" rot="R180">J10</text>
-<text x="77.978" y="26.67" size="1.016" layer="21" font="vector" rot="R180">J11</text>
 <text x="14.224" y="57.912" size="1.6764" layer="21" font="vector" ratio="15">Chimera
 Art Space</text>
 <text x="30.734" y="28.702" size="1.6764" layer="21" font="vector" ratio="15">Laser
 Cutter
 Control</text>
 <text x="19.558" y="14.732" size="1.6764" layer="21" font="vector" ratio="15">CC-BY-SA-4.0</text>
-<text x="19.558" y="11.43" size="1.6764" layer="21" font="vector" ratio="15">Rev 1.3</text>
+<text x="19.558" y="11.43" size="1.4224" layer="21" font="vector" ratio="15">Rev 1.3-1</text>
 <text x="17.018" y="12.192" size="1.6764" layer="22" font="fixed" ratio="15" rot="MR90">S1 = microstep select
 
 MS1   MS2   MS3
@@ -325,18 +322,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="14.7574" y1="2.159" x2="15.5702" y2="6.858" layer="21"/>
 <rectangle x1="16.1544" y1="-0.381" x2="16.9672" y2="6.858" layer="21"/>
 </package>
-<package name="MOLEX-1X2">
-<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+<package name="1X02">
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="MOLEX-1X3">
 <wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
@@ -2162,8 +2168,14 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="29.845" y="44.45" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="32.893" y="41.656" size="1.27" layer="27" ratio="10" rot="R180" display="off"/>
 </element>
-<element name="J11" library="SparkFun-Connectors" package="MOLEX-1X2" value="E-STOP" x="81.28" y="23.0505" locked="yes" rot="R90"/>
-<element name="J10" library="SparkFun-Connectors" package="MOLEX-1X2" value="FAN" x="81.28" y="29.464" locked="yes" rot="R90"/>
+<element name="J11" library="SparkFun-Connectors" package="1X02" value="E-STOP" x="81.28" y="23.0505" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.8548" y="26.8097" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="79.375" y="24.3205" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+</element>
+<element name="J10" library="SparkFun-Connectors" package="1X02" value="FAN" x="81.28" y="29.464" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.8548" y="33.3502" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="79.375" y="30.734" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+</element>
 <element name="Y3" library="pololu" package="POLOLU_STEPPER_DRIVER" value="POLOLU_A4988" x="49.53" y="11.43" locked="yes" smashed="yes">
 <attribute name="NAME" x="41.529" y="21.463" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="VALUE" x="41.91" y="-0.635" size="1.016" layer="27" font="vector" display="off"/>
@@ -2208,7 +2220,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="60.706" y="60.706" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.69" y="58.42" size="1.27" layer="21" rot="R270" display="off"/>
 </element>
-<element name="J9" library="SparkFun-Connectors" package="MOLEX-1X2" value="AIR" x="81.28" y="35.814" locked="yes" rot="R90"/>
+<element name="J9" library="SparkFun-Connectors" package="1X02" value="AIR" x="81.28" y="35.814" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.8548" y="39.7002" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="79.375" y="37.084" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center"/>
+</element>
 <element name="D1" library="semicon-smd-ipc" package="SOD123" value="" x="75.438" y="36.957" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.676" y="40.005" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="78.613" y="35.052" size="1.27" layer="27" rot="R90"/>
